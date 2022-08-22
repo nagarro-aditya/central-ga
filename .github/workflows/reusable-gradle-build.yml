@@ -1,0 +1,9 @@
+on:
+  workflow_call:
+
+jobs:
+  reusable-gradle-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo Running gradle build on this java project
